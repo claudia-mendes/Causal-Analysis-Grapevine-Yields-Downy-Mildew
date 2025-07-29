@@ -51,6 +51,12 @@ Inputs: output_files/vines_combined_2000_2023_treat_SP_pests_selected_departemen
 
 Outputs: Tables and PNG plots for model coefficients, predicted vs. observed values, and RMSE values.
 
+MFF = downy mildew incidence (DI)
+
+MFI = downy mildew severity (DS)
+
+To switch between MFF and MFI, replace the relevant variable references in the script.
+
 
 # Notes on January–March Analyses
 
