@@ -60,9 +60,10 @@ Outputs: CSV files: model_plots/proba_glmer_mff.csv, yield_models_mff.csv, rmse_
 Notes:
 
 MFF = downy mildew incidence (DI)
+
 MFI = downy mildew severity (DS)
-To analyze MFI instead of MFF, replace variable references accordingly.
-This script analyzes May only. For other months, use or adapt different scripts.
+
+To analyze MFI instead of MFF, replace variable references accordingly. This script analyzes May only. For other months, use or adapt different scripts.
 
 
 # Notes on January–March Analyses
