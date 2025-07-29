@@ -68,5 +68,4 @@ To analyze MFI instead of MFF, replace variable references accordingly. This scr
 
 # Notes on January–March Analyses
 
-Separate scripts were used for the months January to March. These early-season analyses excluded the NDT30 variable, which is only relevant during the active growing season (April to
-September). These scripts are not included in this repository.
+Separate scripts were used for the months January to March. These early-season analyses excluded the NDT30 variable (monthly number of days with maximum daily temperatures above 30°C), which is only relevant during the active growing season (April to September). These scripts are not included in this repository.
