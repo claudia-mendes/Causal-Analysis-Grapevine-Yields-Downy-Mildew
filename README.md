@@ -13,7 +13,7 @@ Three main types of analyses are included:
 
 Purpose: Estimates the causal effects of high precipitation events on grapevine yields using double robust (DR) methods.
 
-Methods: Combines outcome models (GLMM or GBM) with treatment models (logistic regression or GBM), adjusting for covariates and regional effects.
+Methods: Combines outcome models (GLMM or GBM) with treatment models (logistic regression or GBM), adjusting for covariates and regional effects (French Departments).
 
 Inputs: vines_combined_2000_2023_treat_SP.rda
 
