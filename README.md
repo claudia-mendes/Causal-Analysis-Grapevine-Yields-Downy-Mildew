@@ -3,9 +3,9 @@
 This repository contains R scripts developed for a study investigating the causal effects of high precipitation (HP) events on grapevine yields and downy mildew (DM) outbreaks in France. The analyses focus on the growing season months (April to September) from 2000 to 2023 and apply causal inference and machine learning methods to quantify direct and indirect yield impacts.
 
 Three main types of analyses are included:
-- Estimation of HP effects on grapevine yields. Script "Causal_estimate_SP_gbm_dep_vines.R"
-- Estimation of HP effects on downy mildew (DM) incidence and severity. Script "dr_pests_binomial_glmm.R"
-- Yield modeling using DM and HP as predictors, with model validation. Script "tab_coef_figure_rmse_mff.R"
+- Estimation of HP effects on grapevine yields: Script "Causal_estimate_SP_gbm_dep_vines.R"
+- Estimation of HP effects on downy mildew (DM) incidence and severity: Script "dr_pests_binomial_glmm.R"
+- Yield modeling using DM and HP as predictors: Script "tab_coef_figure_rmse_mff.R"
 
 # Scripts
 
