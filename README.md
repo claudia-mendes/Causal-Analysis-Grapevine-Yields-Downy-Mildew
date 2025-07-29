@@ -32,7 +32,7 @@ Inputs: output_files/vines_combined_2000_2023_treat_SP_pests_selected_departemen
 
 Outputs: Monthly results saved in text files under results_DR_pests/.
 
-Note: Run this script separately for each month from April to September.
+Note: Note: Run this script separately for each month from April to September by updating the treatment variable suffix (e.g., "apr", "may") and the corresponding climate variable index (e.g., _4, _5).
 
 MFF = downy mildew incidence (DI)
 
