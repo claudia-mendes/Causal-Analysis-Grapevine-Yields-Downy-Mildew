@@ -50,7 +50,7 @@ Methods: The analysis focuses specifically on May HP events (treat2_may) and May
 Fits three yield models:
 
 - LM1: yield ~ HP + climate covariates
-- LMd1: yield ~ predicted MFF + climate covariate
+- LMd1: yield ~ predicted MFF + climate covariates
 - LMd2: yield ~ predicted MFF + HP + climate covariates
 
 Inputs: output_files/vines_combined_2000_2023_treat_SP_pests_selected_departements.rda
@@ -68,4 +68,4 @@ To analyze MFI instead of MFF, replace variable references accordingly. This scr
 
 # Notes on January–March Analyses
 
-Separate scripts were used for the months January to March. These early-season analyses excluded the NDT30 variable (monthly number of days with maximum daily temperatures above 30°C), which is only relevant during the active growing season (April to September). These scripts are not included in this repository.
+Separate scripts, not included in this repository, were used for the months January to March. These scripts excluded the NDT30 variable (monthly number of days with maximum daily temperatures above 30°C), which is only relevant during the active growing season (April to September).
