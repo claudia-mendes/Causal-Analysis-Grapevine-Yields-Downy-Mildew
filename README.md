@@ -43,19 +43,26 @@ To switch between MFF and MFI, replace the relevant variable references in the s
 
 # "tab_coef_figure_rmse_mff.R"
 
-Purpose: Models the effect of downy mildew incidence (MFF = DI) and HP (May) on grapevine yield using both statistical and machine learning approaches.
+Purpose: Models the effect of downy mildew incidence (MFF = DI) and high precipitation (HP) in May on grapevine yield using both statistical (LMER) and machine learning (GBM) approaches.
 
-Methods: Predicts MFF using GLMER and GBM models. Fits three yield models (LM1, LMd1, LMd2) with both LMER and GBM. Performs leave-one-year-out cross-validation and calculates RMSE.
+Methods: The analysis focuses specifically on May HP events (treat2_may) and May climate variables (e.g., MM_SP_5, MM_ST_5). The yield variable is log-transformed before modeling. Predictions and RMSE values are back-transformed for interpretation. Predicts MFF using both GLMER and GBM models. Applies leave-one-year-out cross-validation to assess model performance.
+
+Fits three yield models:
+
+- LM1: yield ~ HP + climate covariates
+- LMd1: yield ~ predicted MFF + climate covariate
+- LMd2: yield ~ predicted MFF + HP + climate covariates
 
 Inputs: output_files/vines_combined_2000_2023_treat_SP_pests_selected_departements.rda
 
-Outputs: Tables and PNG plots for model coefficients, predicted vs. observed values, and RMSE values.
+Outputs: CSV files: model_plots/proba_glmer_mff.csv, yield_models_mff.csv, rmse_all_models_mff.csv, PNG plots: Predicted vs. observed yield (model_plots/*.png) for each model
+
+Notes:
 
 MFF = downy mildew incidence (DI)
-
 MFI = downy mildew severity (DS)
-
-To switch between MFF and MFI, replace the relevant variable references in the script.
+To analyze MFI instead of MFF, replace variable references accordingly.
+This script analyzes May only. For other months, use or adapt different scripts.
 
 
 # Notes on January–March Analyses
